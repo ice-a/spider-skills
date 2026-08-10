@@ -1,3 +1,30 @@
 [submodule "android-reverse-engineering-skill"]
 	path = android-reverse-engineering-skill
 	url = https://github.com/SimoneAvogadro/android-reverse-engineering-skill.git
+[submodule "reverse-skills"]
+	path = reverse-skills
+	url = https://github.com/P4nda0s/reverse-skills.git
+[submodule "reverse-skill"]
+	path = reverse-skill
+	url = https://github.com/715494637/reverse-skill.git
+[submodule "js-reverse-automation--skill"]
+	path = js-reverse-automation--skill
+	url = https://github.com/Fausto-404/js-reverse-automation--skill.git
+[submodule "ai-reverse-toolkit"]
+	path = ai-reverse-toolkit
+	url = https://github.com/zhizhuodemao/ai-reverse-toolkit.git
+[submodule "jshook-skill"]
+	path = jshook-skill
+	url = https://github.com/wuji66dde/jshook-skill.git
+[submodule "re-skill"]
+	path = re-skill
+	url = https://github.com/vgrichina/re-skill.git
+[submodule "skills"]
+	path = skills
+	url = https://github.com/betab0t/skills.git
+[submodule "IDA-Skill"]
+	path = IDA-Skill
+	url = https://github.com/xxx-holic/IDA-Skill
+[submodule "spider-king-skill"]
+	path = spider-king-skill
+	url = https://github.com/aoyunyang/spider-king-skill.git
