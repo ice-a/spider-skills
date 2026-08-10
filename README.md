@@ -2,7 +2,9 @@
 
 汇聚 **17 个**面向 AI 编程工具的逆向工程 skill，覆盖 **Web/JS 逆向、Android/iOS 逆向、二进制/IDA/Ghidra 分析、固件提取、符号执行、协议抓包、游戏 ROM 逆向、GDB 调试**。所有子目录均为 git submodule，指向各自上游仓库。
 
-> 仓库：`https://github.com/ice-a/spider-skills` ｜ 许可证：各 skill 自有 LICENSE（MIT / Apache-2.0 / GPL-3.0），仅限安全研究、授权测试、教学与 CTF 等合法用途。
+> 仓库：`https://github.com/ice-a/spider-skills` ｜ 许可证：各 skill 自有 LICENSE（MIT / Apache-2.0 / GPL-3.0 / LGPL / BSD），仅限安全研究、授权测试、教学与 CTF 等合法用途。
+
+> 待收录：`mobsf`（Mobile-Security-Framework）因本地 submodule 缓存残留暂未加入，后续补 `git submodule add https://github.com/MobSF/Mobile-Security-Framework-MobSF.git mobsf` 即可。
 
 ---
 
