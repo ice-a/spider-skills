@@ -1,6 +1,6 @@
 # 逆向工程技能集（Reverse Engineering Skills Hub）
 
-汇聚 **10 个**面向 AI 编程工具的逆向工程 skill，覆盖 **Web/JS 逆向、Android/iOS 逆向、二进制/IDA 分析、游戏 ROM 逆向、GDB 调试**。所有子目录均为 git submodule，指向各自上游仓库。
+汇聚 **17 个**面向 AI 编程工具的逆向工程 skill，覆盖 **Web/JS 逆向、Android/iOS 逆向、二进制/IDA/Ghidra 分析、固件提取、符号执行、协议抓包、游戏 ROM 逆向、GDB 调试**。所有子目录均为 git submodule，指向各自上游仓库。
 
 > 仓库：`https://github.com/ice-a/spider-skills` ｜ 许可证：各 skill 自有 LICENSE（MIT / Apache-2.0 / GPL-3.0），仅限安全研究、授权测试、教学与 CTF 等合法用途。
 
@@ -32,7 +32,11 @@ spider-skills/
 ├── IDA-Skill/                   ├── js-reverse-automation--skill/
 ├── jshook-skill/                ├── re-skill/
 ├── reverse-skill/               ├── reverse-skills/
-├── skills/   (gdb)              └── spider-king-skill/
+├── skills/   (gdb)              ├── spider-king-skill/
+├── ghidra-mcp/                  ├── rizin/
+├── objection/                   ├── mitmproxy/
+├── binwalk/                     ├── angr/
+└── js-deobfuscator/
 ```
 
 **5. 新增 skill**：`git submodule add <上游URL> <目录名>` → commit。
@@ -54,6 +58,13 @@ spider-skills/
 | `reverse-skills/` | reverse-skills | 二进制/移动逆向集（Frida/Unicorn/DEX/Unity/iOS） | IDA-NO-MCP | MIT |
 | `skills/` | skills (gdb) | GDB 非阻塞调试 | gdb | MIT |
 | `spider-king-skill/` | spider-king | Web/JS 协议恢复（对抗式 JS 逆向，Python 交付） | chrome-devtools-mcp / js-reverse-mcp | MIT |
+| `ghidra-mcp/` | GhidraMCP | 免费二进制分析（Ghidra 插件 + MCP，补 IDA 收费短板） | Ghidra + Python | MIT |
+| `rizin/` | rizin | 命令行二进制分析/调试（radare2 继任） | rizin (C) | LGPL-3.0 |
+| `objection/` | objection | 移动端运行时探测（基于 Frida，iOS/Android） | Frida + Python | GPL-3.0 |
+| `mitmproxy/` | mitmproxy | 协议抓包/重放/解码（HTTPS/HTTP2/WS） | Python | MIT |
+| `binwalk/` | binwalk | 固件提取与文件系统解包 | Python | MIT |
+| `angr/` | angr | 符号执行自动求解路径约束（CTF/协议还原） | Python | BSD-2 |
+| `js-deobfuscator/` | js-deobfuscator | JS 反混淆（针对 obfuscator.io，AST 还原） | Node.js | MIT |
 
 ---
 
@@ -90,3 +101,7 @@ cp -r reverse-skill/jsr-reverse        ~/.claude/skills/
 | Java JDK 17+ / jadx | android-reverse-engineering |
 | Chrome/Edge + CDP | jshook-skill、js-reverse-automation、spider-king |
 | gdb | skills/gdb |
+| Ghidra | ghidra-mcp |
+| Frida | objection、reverse-skills |
+| rizin | rizin |
+| mitmproxy | mitmproxy |

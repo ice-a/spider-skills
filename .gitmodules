@@ -28,3 +28,24 @@
 [submodule "spider-king-skill"]
 	path = spider-king-skill
 	url = https://github.com/aoyunyang/spider-king-skill.git
+[submodule "ghidra-mcp"]
+	path = ghidra-mcp
+	url = https://github.com/LaurieWired/GhidraMCP.git
+[submodule "rizin"]
+	path = rizin
+	url = https://github.com/rizinorg/rizin.git
+[submodule "objection"]
+	path = objection
+	url = https://github.com/sensepost/objection.git
+[submodule "mitmproxy"]
+	path = mitmproxy
+	url = https://github.com/mitmproxy/mitmproxy.git
+[submodule "binwalk"]
+	path = binwalk
+	url = https://github.com/ReFirmLabs/binwalk.git
+[submodule "angr"]
+	path = angr
+	url = https://github.com/angr/angr.git
+[submodule "js-deobfuscator"]
+	path = js-deobfuscator
+	url = https://github.com/0x1Avram/js-deobfuscator.git
